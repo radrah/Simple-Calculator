@@ -46,22 +46,22 @@ function equalButPress(num) {
 
     switch (operator) {
         //for addition
-        case "+":
+        case " + ":
             finalVal = oldVal + newVal;
 
             break;
         //for subtraction
-        case "-":
+        case " - ":
             finalVal = oldVal - newVal;
 
             break;
         //for multiplication
-        case "*":
+        case " * ":
             finalVal = oldVal * newVal;
 
             break;
         //for division
-        case "/":
+        case " / ":
             finalVal = oldVal / newVal;
 
             break;
