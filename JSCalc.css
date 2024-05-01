@@ -1,0 +1,68 @@
+body {
+    background: #3c3e3c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-left: 600px;
+}
+
+.container {
+    background: #3c3e3c;
+}
+
+.entry {
+    width: 265px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 2px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.calc-container {
+    width: 300px;
+    background-color: #d95438;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.numBut,
+.clearBut,
+.memBut,
+.mathBut,
+.equalBut {
+    height: 59px;
+    width: 59px;
+    margin: 10px 4px;
+    border: none !important;
+}
+
+.equalBut {
+    width: 126px;
+}
+
+.numBut,
+.clearBut,
+.memBut {
+    background-color: rgb(31, 27, 27);
+}
+
+.clearBut {
+    background-color: rgb(202, 50, 63);
+}
+
+.memBut {
+    background-color: rgb(48, 202, 9);
+}
+
+.mathBut {
+    background-color: rgb(48, 202, 9);
+}
+
+.equalBut {
+    background-color: rgb(6, 197, 245);
+}
